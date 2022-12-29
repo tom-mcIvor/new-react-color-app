@@ -3,8 +3,7 @@
 
 
 
-
-const Container = () => {
+const Container = ({ text }) => {
   return (
     <div id="Container"></div>
   )
