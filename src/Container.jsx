@@ -2,11 +2,12 @@
 
 
 
+import React from 'react';
 
 const Container = ({ text }) => {
   return (
-    <div id="Container"></div>
-  )
+    <div>{text}</div>
+  );
 }
 
 export default Container
