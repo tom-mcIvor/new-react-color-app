@@ -6,7 +6,7 @@
 
 const Container = () => {
   return (
-    <div>Container</div>
+    <div id="Container"></div>
   )
 }
 

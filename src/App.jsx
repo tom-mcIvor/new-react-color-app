@@ -3,13 +3,16 @@
 
 import React from "react";
 
-// import Container from "./Container";
-// import InputBox from "./InputBox";
+import Container from "./Container";
+import InputBox from "./InputBox";
 
 function App() {
 
   return (
-          <p>hello</p>
+          <div>
+            <Container/>
+            <InputBox/>
+          </div>
     );
     
   }
@@ -18,6 +21,4 @@ function App() {
 
   
   
-    //  <Container/>
-  
-    //  <InputBox/>
+    
